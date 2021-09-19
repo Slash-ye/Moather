@@ -82,10 +82,10 @@ h6 {
 }
 
 .navbar-nav {
-  margin-right: 19.5em;
+  /* margin-right: 19.5em; */
 }
 
-.navbar-nav .nav-item {
+.navbar-nav .nav-item:not(:last-child) {
   margin-left: 3.37em;
 }
 
