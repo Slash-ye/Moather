@@ -79,6 +79,7 @@ h6 {
   color: #fff;
   padding: 0.93em 2.5em;
   border-radius: 0.37em;
+  white-space: nowrap;
 }
 
 .navbar-nav {
@@ -724,6 +725,7 @@ h6 {
   display: block;
   width: 100%;
   padding: 0.93em 12.5em;
+  white-space: nowrap;
 }
 
 /* -------------------------------------------------------
