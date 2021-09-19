@@ -81,6 +81,10 @@ h6 {
   border-radius: 0.37em;
 }
 
+.navbar-nav {
+  /* margin-right: 19.5em; */
+}
+
 .navbar-nav .nav-item:not(:last-child) {
   margin-left: 3.37em;
 }
