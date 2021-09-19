@@ -20,19 +20,19 @@
     breakpoints: {
       320: {
         slidesPerView: 1,
-        spaceBetween: 40,
+        spaceBetween: 0,
       },
       480: {
         slidesPerView: 2,
-        spaceBetween: 60,
+        spaceBetween: 10,
       },
       640: {
         slidesPerView: 3,
-        spaceBetween: 80,
+        spaceBetween: 20,
       },
       992: {
         slidesPerView: 3,
-        spaceBetween: 120,
+        spaceBetween: 40,
       },
     },
   });
