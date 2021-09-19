@@ -16,37 +16,45 @@
 
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light  fixed-top">
+<nav id="navbar" class="navbar navbar-expand-lg navbar-light  fixed-top">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="assets/img/logo.svg" alt="" srcset=""></a>
+        <div class="row w-100 justify-content-between">
+            <div class="col-2"> <a class="navbar-brand" href="#"><img src="assets/img/logo.svg" alt="" srcset="">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button></a>
+            </div>
+            <div class="col-auto">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-active" aria-current="page" href="#">الرئيسية</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">الحملات</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">من نحن</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">المدونة </a>
+                        </li>
+                        <li class="nav-item d-md-none d-xs ">
+                            <a class="btn btn-contact" type="submit">تواصل معانا</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-2 text-end d-none d-md-block">
+                <a class="btn btn-contact" type="submit">تواصل معانا</a>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link nav-link-active" aria-current="page" href="#">الرئيسية</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">الحملات</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">من نحن</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">المدونة </a>
-                </li>
-            </ul>
-            <form class="d-flex">
-                <button class="btn btn-contact" type="submit">تواصل معانا</button>
-            </form>
+            </div>
         </div>
     </div>
 </nav>
+
 <div class="hero col-xxl-8 px-4 py-5">
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div class="col-10 col-sm-8 col-lg-6 hero-img">
@@ -73,36 +81,49 @@
         <p>خدمتنا</p>
         <h2>خدمات العملاء</h2>
     </div>
-    <div class="card-con">
-        <div class="col">
-            <div data-aos="fade-up" class="card"  >
-                <div class="card-body">
-                    <img src="assets/img/card_one.svg" alt="img...">
 
-                    <h5 class="card-title">نقدم لك خدمات المؤثرين
-                        حسب المجالات</h5>
+    <div class="card-con">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="col">
+                        <div data-aos="fade-up" class="card" style="">
+                            <div class="card-body">
+                                <img src="assets/img/card_one.svg" alt="img...">
+
+                                <h5 class="card-title">نقدم لك خدمات المؤثرين
+                                    حسب المجالات</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="col">
+                        <div data-aos="fade-up" class="card active-card"
+                            style="background: linear-gradient(90deg, #e84975 0%, #ef6f56 100%);">
+                            <div class="card-body">
+                                <img src="assets/img/card_tow.svg" alt="img...">
+                                <h5 style="color:#fff" class="card-title"> نعمل معك علي اختيار المثر
+                                    المناسب لهدفك</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="col">
+                        <div data-aos="fade-up" class="card" style="">
+                            <div class="card-body">
+                                <img src="assets/img/card_three.svg" alt="img...">
+                                <h5 class="card-title">نعد السناريو الاعلاني بطرق
+                                    مبتكره ومبدعة</h5>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col">
-            <div data-aos="fade-up" class="card active-card"
-                style="background: linear-gradient(90deg, #e84975 0%, #ef6f56 100%);">
-                <div class="card-body">
-                    <img src="assets/img/card_tow.svg" alt="img...">
-                    <h5 style="color:#fff" class="card-title"> نعمل معك علي اختيار المثر
-                        المناسب لهدفك</h5>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div data-aos="fade-up" class="card" >
-                <div class="card-body">
-                    <img src="assets/img/card_three.svg" alt="img...">
-                    <h5 class="card-title">نعد السناريو الاعلاني بطرق
-                        مبتكره ومبدعة</h5>
-                </div>
-            </div>
-        </div>
+ 
     </div>
 
 </div>
@@ -122,28 +143,40 @@
             </div>
         </div>
     </div>
-
-    <div data-aos="fade-up" class="AdvertisingCampaigns-contant">
+    <section data-aos="fade-up" id="clients" class=" AdvertisingCampaigns-contant mt-3">
         <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="card  ">
-                        <img src="assets/img/1.png" class="card-img" alt="...">
+            <div class="clients-slider swiper-container">
+                <div class="swiper-wrapper align-items-center">
+                    <div class="swiper-slide">
+                        <div class="card  ">
+                            <img src="assets/img/1.png" class="card-img" alt="...">
+                        </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card  ">
-                        <img src="assets/img/2.png" class="card-img" alt="...">
+                    <div class="swiper-slide">
+                        <div class="card  ">
+                            <img src="assets/img/2.png" class="card-img" alt="...">
+                        </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card  ">
-                        <img src="assets/img/3.png" class="card-img" alt="...">
+                    <div class="swiper-slide">
+                        <div class="card  ">
+                            <img src="assets/img/3.png" class="card-img" alt="...">
+                        </div>
                     </div>
+                    <div class="swiper-slide">
+                        <div class="card  ">
+                            <img src="assets/img/1.png" class="card-img" alt="...">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card  ">
+                            <img src="assets/img/2.png" class="card-img" alt="...">
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 </div>
 <div class="statistics">
     <div style="margin: 0px;" class="container">
@@ -155,7 +188,7 @@
             </div>
 
             <div data-aos="fade-right" class="col-md-6 other-side">
-                <div style="margin: 0px;" class="conatainer">
+                <div class="conatainer">
                     <div class="row">
                         <div class="col-md-4">
                             <h2 class="log-font-color"><span class="slogin-font-color">+</span> 900</h2>
@@ -182,7 +215,8 @@
         <h1 class="text-white">لماذا منصة مؤثر</h1>
     </div>
     <div data-aos="fade-up" class="why-contact">
-        <img src="assets/img/why.png" alt="">
+        <img class="img-big" src="assets/img/why.png" alt="">
+        <img class="img-small" src="assets/img/wht-small.png" alt="">
     </div>
 </div>
 <div class="testimonials">
@@ -190,27 +224,27 @@
         <p class="slogin-font-color">اراء العملاء</p>
         <h1 class="log-font-color">ماذا قالوا عن مؤثر</h1>
     </div>
+
     <div class="testimonials-contant ">
         <div class="container">
             <div class="row">
-                <div data-aos="fade-left" class="col">
+                <div data-aos="fade-left" class="col-md-6 testimonials-img">
                     <img style="width: 30em" src="assets/img/tesst.png" class="d-block mx-lg-auto img-fluid"
-                        alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                        alt="testimonials-img" loading="lazy">
                 </div>
-                <div data-aos="fade-right" class="col testimonials-text">
+                <div data-aos="fade-right" class="col-md-6 testimonials-text">
                     <i class="bx bxs-quote-alt-right quote-icon-right icon-sacend-testimoni float-start"></i><br>
-                    <br>
-                    <br>
+
                     <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى،
                         حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها
                         التطبيق.إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما
                         تريد</p>
                     <div class="row">
-                        <div class="col">
+                        <div class="col-md-6">
                             <h5 class="log-font-color">هيثم محمد</h5>
-                            <p class="slogin-font-color"><small>المدير التنفيذي لـ أجير</small></p>
+                            <p class="slogin-font-color"><span>المدير التنفيذي لـ أجير</span></p>
                         </div>
-                        <div class="col text-end testimonials-icon">
+                        <div class="col-md-6 text-md-end  testimonials-icon">
                             <i class='bx bx-right-arrow-alt icon-r'></i>
                             <i class='bx bx-left-arrow-alt'></i>
                         </div>
@@ -222,74 +256,74 @@
     </div>
 
 </div>
-    <div class="blog">
-        <div class="blog-header text-center">
-            <p class="slogin-font-color">المدونة</p>
-            <h1 class="log-font-color">تابع اخر مقالاتنا</h1>
-        </div>
-        <div class="blog-contact team">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="member" data-aos="zoom-in">
-                            <div class="pic"><img src="assets/img/blog_1.png" class="img-fluid" alt=""></div>
-                            <div class="member-info">
-                                <h4>فعالية التسويق عبر المؤثرين
-                                    على العلامات التجارية</h4>
-                                <div class="row">
-                                    <div class="col readmore">
-                                        اقرأ المزيد
-                                    </div>
-                                    <div class="col text-end date">
-                                        2021/06/13
-                                    </div>
+<div class="blog">
+    <div class="blog-header text-center">
+        <p class="slogin-font-color">المدونة</p>
+        <h1 class="log-font-color">تابع اخر مقالاتنا</h1>
+    </div>
+    <div class="blog-contact team">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="member" data-aos="zoom-in">
+                        <div class="pic"><img src="assets/img/blog_1.png" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>فعالية التسويق عبر المؤثرين
+                                على العلامات التجارية</h4>
+                            <div class="row">
+                                <div class="col readmore">
+                                    اقرأ المزيد
+                                </div>
+                                <div class="col text-end date">
+                                    2021/06/13
                                 </div>
                             </div>
                         </div>
                     </div>
-    
-                    <div class="col-lg-4 col-md-6">
-                        <div class="member" data-aos="zoom-in" data-aos-delay="100">
-                            <div class="pic"><img src="assets/img/blog_2.png" class="img-fluid" alt=""></div>
-                            <div class="member-info">
-                                <h4>فعالية التسويق عبر المؤثرين
-                                    على العلامات التجارية</h4>
-    
-                                <div class="row">
-                                    <div class="col readmore">
-                                        اقرأ المزيد
-                                    </div>
-                                    <div class="col text-end date">
-                                        2021/06/13
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="col-lg-4 col-md-6">
-                        <div class="member" data-aos="zoom-in" data-aos-delay="200">
-                            <div class="pic"><img src="assets/img/blog_3.png" class="img-fluid" alt=""></div>
-                            <div class="member-info">
-                                <h4 class="text-left">فعالية التسويق عبر المؤثرين
-                                    على العلامات التجارية</h4>
-                                <div class="row">
-                                    <div class="col readmore">
-                                        اقرأ المزيد
-                                    </div>
-                                    <div class="col text-end date">
-                                        2021/06/13
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-    
                 </div>
-    
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="pic"><img src="assets/img/blog_2.png" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>فعالية التسويق عبر المؤثرين
+                                على العلامات التجارية</h4>
+
+                            <div class="row">
+                                <div class="col readmore">
+                                    اقرأ المزيد
+                                </div>
+                                <div class="col text-end date">
+                                    2021/06/13
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="member" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="pic"><img src="assets/img/blog_3.png" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4 class="text-left">فعالية التسويق عبر المؤثرين
+                                على العلامات التجارية</h4>
+                            <div class="row">
+                                <div class="col readmore">
+                                    اقرأ المزيد
+                                </div>
+                                <div class="col text-end date">
+                                    2021/06/13
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
+
         </div>
     </div>
+</div>
 <div class="contact">
     <div class="container">
         <div class="row">
@@ -392,8 +426,8 @@
                 </div>
             </div>
         </div>
-        <button data-aos="fade-down" class="btn text-center">عرض الكل</button>
     </div>
+    <button data-aos="fade-down" class="btn text-center">عرض الكل</button>
 </div>
 <!-- ======= Footer ======= -->
 <footer id="footer">
@@ -452,8 +486,22 @@
             جميع الحقوق محفوظة لمنصة مؤثر © 2021
         </div>
     </div>
-</footer> 
+</footer><!-- End Footer -->
+    <script>
+        window.onscroll = function () {
+            scrollFunction()
+        };
 
+        function scrollFunction() {
+            if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+                document.getElementById("navbar").style.padding = "1.31em 8.75em";
+                document.getElementById("navbar").style.backgroundColor = "#fff";
+            } else {
+                document.getElementById("navbar").style.padding = "2.31em 8.75em";
+                document.getElementById("navbar").style.backgroundColor = "#f9f9f9";
+            }
+        }
+    </script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
     <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
