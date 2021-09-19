@@ -1,0 +1,15 @@
+<svg id="Icon_right" data-name="Icon right" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="8.588" height="15.029" viewBox="0 0 8.588 15.029">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Mask" d="M.322,13.2a1.038,1.038,0,0,0,0,1.5.975.975,0,0,0,.751.322.975.975,0,0,0,.751-.322L8.266,8.266a1.038,1.038,0,0,0,0-1.5L1.825.322a1.038,1.038,0,0,0-1.5,0,1.038,1.038,0,0,0,0,1.5l5.69,5.69Z" fill="#a2a2a2"/>
+    </clipPath>
+  </defs>
+  <g id="Group_221" data-name="Group 221" transform="translate(0 0)">
+    <path id="Mask-2" data-name="Mask" d="M.322,13.2a1.038,1.038,0,0,0,0,1.5.975.975,0,0,0,.751.322.975.975,0,0,0,.751-.322L8.266,8.266a1.038,1.038,0,0,0,0-1.5L1.825.322a1.038,1.038,0,0,0-1.5,0,1.038,1.038,0,0,0,0,1.5l5.69,5.69Z" fill="#a2a2a2"/>
+    <g id="Mask_Group_221" data-name="Mask Group 221" clip-path="url(#clip-path)">
+      <g id="Icon_Color" data-name="Icon Color" transform="translate(-8.613 -5.486)">
+        <rect id="_Icon_Color" data-name="🎨 Icon Color" width="26" height="26" transform="translate(0)" fill="#a2a2a2"/>
+      </g>
+    </g>
+  </g>
+</svg>
